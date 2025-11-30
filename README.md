@@ -1,66 +1,114 @@
-🖼️ OpenCV Tutorial – Introduction to Computer Vision
+# OpenCV Learning Repository
 
-Welcome to my OpenCV learning repository!
-This tutorial series documents my step-by-step journey into Computer Vision using OpenCV (Python). The goal of this project is to build a strong foundation in image processing, understand important CV concepts, and implement them using simple, well-explained code examples.
+This repository contains my complete hands-on learning journey of **OpenCV using Python**. It includes practical examples, categorized folders, code files, and resources used while learning various concepts of image processing, computer vision, face detection, video processing, and more.
 
-🚀 What You Will Learn
+---
 
-This tutorial covers the most essential topics in OpenCV, including:
+## 📁 Folder Structure Overview
 
-✅ 1. Loading & Displaying Images / Videos
+Below is the complete breakdown of each module included in this repository:
 
-Reading images using cv2.imread()
+### 1. **Edge Detection**
 
-Showing images with cv2.imshow()
+Contains programs related to:
 
-Capturing video from webcam
+* Canny edge detection
+* Sobel & Laplacian operators
+* Gradient-based image analysis
 
-✅ 2. Image Processing Basics
+### 2. **Face and Object Detection**
 
-Converting images to grayscale
+This folder includes:
 
-Blurring & smoothing techniques
+* Haarcascade XML models such as:
 
-Edge detection (Canny)
+  * `haarcascade_eye.xml`
+  * `haarcascade_frontalface_alt.xml`
+  * `haarcascade_smile.xml`
+* Python scripts for detecting:
 
-Thresholding
+  * Faces
+  * Eyes
+  * Smiles
+* Real-time face detection using webcam
 
-Morphological operations (dilate, erode)
+### 3. **Image Basic Handling**
 
-✅ 3. Drawing & Annotation
+Fundamental operations such as:
 
-Drawing shapes (lines, rectangles, circles)
+* Loading images
+* Displaying and saving images
+* Understanding image shapes and color channels
 
-Adding text on images
+### 4. **Image Drawing Techniques**
 
-✅ 4. Geometric Transformations
+Programs demonstrating how to draw:
 
-Image resizing
+* Lines
+* Rectangles
+* Circles
+* Text on images using OpenCV drawing functions
 
-Cropping
+### 5. **Image Filtering Process**
 
-Rotation & translation
+Includes scripts for:
 
-Perspective transforms
+* Blurring (Gaussian, Median, Bilateral)
+* Sharpening
+* Noise reduction
+* Kernel operations
 
-✅ 5. Contours & Shape Detection
+### 6. **Image Transformation**
 
-Finding contours
+This folder covers:
 
-Detecting shapes (triangle, square, circle)
+* Resizing, cropping & rotating
+* Perspective transforms
+* Affine transforms
+* Flipping & scaling
 
-Object boundary extraction
+### 7. **Working With Video and Webcam**
 
-✅ 6. Face Detection
+Contains:
 
-Using Haar Cascades to detect faces in real time
+* Webcam access code using OpenCV
+* Video capture and frame reading
+* Video writing using codecs (XVID)
+* Real-time video processing scripts
 
-✅ 7. Advanced Concepts (Upcoming)
+---
 
-Color detection
 
-Object tracking
 
-Feature detection (SIFT/SURF)
 
-Building small CV projects
+Files added during commit:
+
+* Haarcascade XML files
+
+---
+
+## 🧰 Technologies Used
+
+* **Python 3**
+* **OpenCV (cv2)**
+* **NumPy**
+* **VS Code**
+* **Git & GitHub** for version control
+
+---
+## 🎯 Objective of This Repository
+
+This repository is created to:
+
+* Build a strong foundation in OpenCV
+* Practice real-world computer vision concepts
+* Maintain all scripts in a clean and structured format
+* Use Git & GitHub for tracking my learning progress
+
+---
+
+## 📬 Contact
+
+For any improvements or suggestions, feel free to create an issue or contribute.
+
+💡 *This repository will keep growing as I learn more about OpenCV.*
